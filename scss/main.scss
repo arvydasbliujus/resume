@@ -1,0 +1,21 @@
+// Settings
+@import "./settings/resets";
+@import "./settings/variables";
+@import "./settings/mixin";
+@import "./settings/base";
+@import "./settings/config";
+
+// Components
+@import "./components/header";
+@import "./components/menu";
+@import "./components/card-about-me";
+@import "./components/social-icons";
+@import "./components/footer";
+
+// Sections
+@import "./sections/home";
+@import "./sections/main";
+@import "./sections/projects";
+@import "./sections/about";
+@import "./sections/contacts";
+@import "./settings/responsive";

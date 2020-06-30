@@ -1,0 +1,36 @@
+.about {
+  padding-bottom: 2rem;
+
+  &__me-img {
+    height: 30vh;
+    width: 100%;
+    background:
+      linear-gradient(to right,
+        rgba($color-primary, .9),
+        rgba($color_primary, .3)),
+      url('../../dist/img/hero.jpg') center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+    p {
+      margin: 1.5rem 0;
+      color: set-text-color($color-black);
+    }
+
+  }
+
+  &__me {
+    width: 77vw;
+
+    h1 {
+      padding-bottom: 1rem;
+    }
+  }
+
+  p {
+    line-height: 1.4;
+  }
+}
