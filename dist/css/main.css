@@ -386,7 +386,6 @@ main .social-icons a:hover {
   position: relative;
   border-bottom: 5px solid #07517F;
   overflow: hidden;
-  cursor: pointer;
 }
 
 .projects__card-title {
@@ -408,6 +407,10 @@ main .social-icons a:hover {
   z-index: 10;
   text-align: center;
   width: 100%;
+}
+
+.projects__card-tech .fa-2x {
+  font-size: 1.3em;
 }
 
 .projects__card-tech span {
@@ -468,10 +471,6 @@ main .social-icons a:hover {
   color: #000;
   border: 1px solid #FFC857;
   background: #FFC857;
-}
-
-.projects .fa-2x {
-  font-size: 1.3em;
 }
 
 .about {
